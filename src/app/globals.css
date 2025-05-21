@@ -74,6 +74,9 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  --yonex-blue-color: #006cb7;
+  --yonex-green-color: #00a84f;
+  --victor-blue-color: #0b3076;
 }
 
 @layer base {
@@ -83,4 +86,17 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.yonex-badge {
+  background: linear-gradient(
+    var(--yonex-blue-color) 50%,
+    var(--yonex-green-color) 50%
+  );
+  color: white;
+}
+
+.victor-badge {
+  background: var(--victor-blue-color);
+  color: white;
 }
