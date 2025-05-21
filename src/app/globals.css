@@ -100,3 +100,7 @@
   background: var(--victor-blue-color);
   color: white;
 }
+
+.lining-badge {
+  @apply bg-rose-500 text-white;
+}

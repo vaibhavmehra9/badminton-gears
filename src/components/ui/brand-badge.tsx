@@ -13,6 +13,7 @@ export const BrandBadge: React.FC<BrandBadgeProps> = ({ brand }) => {
       className={cn(
         brand === RacquetBrand.YONEX && "yonex-badge",
         brand === RacquetBrand.VICTOR && "victor-badge",
+        brand === RacquetBrand.LINING && "lining-badge",
         "text-md border-0"
       )}
     >

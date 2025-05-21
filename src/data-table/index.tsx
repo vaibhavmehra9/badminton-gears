@@ -54,7 +54,7 @@ export function DataTable<TData, TValue>({
     },
     initialState: {
       pagination: {
-        pageSize: 50,
+        pageSize: 100,
       },
     },
   });
@@ -62,8 +62,8 @@ export function DataTable<TData, TValue>({
   return (
     <div className="rounded-md border">
       <Filters table={table as never} />
-      <div className="h-[80vh] overflow-y-scroll">
-        <Table className="border border-red-500">
+      <div className="h-[calc(100vh_-_300px)] overflow-y-scroll px-4">
+        <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
               <TableRow key={headerGroup.id}>
