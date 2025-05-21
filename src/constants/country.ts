@@ -8,4 +8,7 @@ export enum Country {
   THAILAND = "Thailand",
   CHINESE_TAIPEI = "Chinese Taipei",
   FRANCE = "France",
+  INDONESIA = "Indonesia",
+  SINGAPORE = "Singapore",
+  MALAYSIA = "Malaysia",
 }
