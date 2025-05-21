@@ -23,6 +23,12 @@ export const metadata: Metadata = {
     "88dpro",
     "77pro",
     "carlton",
+    "An se Young",
+    "Lakshya Sen",
+    "Viktor Axelsen",
+    "Lin Dan",
+    "Lee Chong Wei",
+    "Kento Momota",
   ],
 };
 
