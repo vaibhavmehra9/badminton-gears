@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     "Lee Chong Wei badminton racket",
     "Kento Momota badminton racket",
     "Astrox 100zz, Astrox 88dpro, Astrox 99pro, Nanoflare 1000z, Arcsaber 11pro",
+    "badminton gears used by pros",
+    "badminton rackets",
+    "badminton rackets",
   ],
 };
 
