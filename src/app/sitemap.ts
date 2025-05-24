@@ -5,7 +5,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {
       url: "https://badminton-gears.vercel.app/",
       lastModified: new Date(),
-      changeFrequency: "hourly",
+      changeFrequency: "daily",
       priority: 1,
     },
   ];
