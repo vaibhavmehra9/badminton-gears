@@ -9,7 +9,10 @@ interface FiltersProps<TData> {
 
 export const Filters: React.FC<FiltersProps<Player>> = ({ table }) => {
   return (
-    <div className="flex items-center py-4 pl-4 gap-4">
+    <div
+      className="grid md:auto-cols-[300px]
+  md:grid-flow-col items-center p-4  gap-4"
+    >
       <FilterInput
         placeholder="Search by Name"
         table={table}

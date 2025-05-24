@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Badminton gears used by pro players
 
-## Getting Started
+This is a Next.js-powered website that showcases badminton gear used by professional players. Whether you're a fan, an aspiring player, or a gear enthusiast, this site provides curated information on rackets, shoes, clothing, and accessories used by top pros in the sport.
 
-First, run the development server:
+[Visit the Website](https://badminton-gears.vercel.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🏸 Gear details by player (rackets, shoes, apparel, etc.)
+- 📷 High-quality images of gear
+- 🔍 Search and filter by player or gear type
+- 📱 Responsive design for mobile and desktop
+- ⚡ Built with the performance and flexibility of **Next.js**
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Built With
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Next.js](https://nextjs.org/)
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/) for deployment
 
-## Learn More
+## 🧑‍💻 Getting Started
 
-To learn more about Next.js, take a look at the following resources:
+1. **Clone the repo**
+   `git clone https://github.com/vaibhavmehra9/badminton-gears.git`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies**
+   `npm i`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the development server**
+   `npm run dev`
